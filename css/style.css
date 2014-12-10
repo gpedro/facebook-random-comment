@@ -1,0 +1,14 @@
+body {
+	background: #f3f3f3;
+}
+.container {
+	margin-top: 30px;
+	max-width: 460px;
+	background: #fff;
+}
+.media-object {
+	border-radius: 50%;
+}
+.close {
+	color: #000;
+}
