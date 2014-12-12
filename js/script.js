@@ -86,24 +86,7 @@ $(document).ready(function() {
 	var getData = function() {
 		FB.api('/me?fields=name', function(response) {
 			$('#name').text(response.name);
-			//$('#status').text('Você possui ' + response.groups.data.length + ' grupos.');
 			$('#login').text('sair');
-
-			/*var groups = response.groups.data;
-			var options = [];
-			$.each(groups, function(index, group) {
-				options.push({'value': group.id, 'label': group.name});
-			});
-
-			$('#groups').tokenfield({
-				autocomplete: {
-					source: options,
-					delay: 100
-				},
-				showAutocompleteOnFocus: true
-			});
-
-			$('#container').show();*/
 		});
 	};
 

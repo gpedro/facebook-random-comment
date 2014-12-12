@@ -10,4 +10,4 @@ to use, you will need the publication of the permalink, you can get by clicking 
 in this case, the id of the permalink is **492983047509487**
 
 ## Configuration
-`js/script.js:123`
+`js/script.js:106`
